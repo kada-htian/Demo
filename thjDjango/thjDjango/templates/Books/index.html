@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block js_css %}
+<style>
+    body {
+        background: gray;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+{{ block.super }}
+<div>
+    hello world
+</div>
+{{ now }}
+{{ hello_world }}
+{% endblock %} 
+<!-- TODO: -->
