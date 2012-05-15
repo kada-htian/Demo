@@ -3,5 +3,5 @@ from thjDjango.Books.models import Book
 
 # Create the form class.
 class BookForm(ModelForm):
-    class Meta:
-        model = Book
+	class Meta:
+		model = Book

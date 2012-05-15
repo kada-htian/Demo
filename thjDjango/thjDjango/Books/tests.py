@@ -34,4 +34,4 @@ class BooksTest(TestCase):
 		
 	def test_book_delete(self):
 		Book.objects.all().delete()
-	
+
